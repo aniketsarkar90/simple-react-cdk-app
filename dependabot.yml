@@ -9,3 +9,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+updates:
+  - package-ecosystem: npm # See documentation for possible values
+    directory: "/cdk/" # Location of package manifests
+    schedule:
+      interval: "daily"
